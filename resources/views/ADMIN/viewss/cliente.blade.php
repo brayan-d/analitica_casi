@@ -28,9 +28,9 @@
         <br>
         <br>
 
-<div class="fas fa" style="margin-left: 800px;">
+{{-- <div class="fas fa" style="margin-left: 800px;">
     <a href="{{ route('admin.subir-cliente') }}" class="btn btn-primary">Subir empresa</a>
-</div>
+</div> --}}
 <br>
 @if(session('success'))
 <div class="alert alert-success">

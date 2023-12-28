@@ -21,6 +21,8 @@
             max-width: 700px;
             text-align: center;
             margin-left: 30px;
+            font-family: Arial, sans-serif;
+
         }
         .image-container {
             width: 40%;
@@ -44,28 +46,28 @@
         </div>
         <div class="form-container">
             <div class="text-center">
-                <img src="{{ asset('img/logo4.png') }}" alt="Logo" width="300">
+                <img src="{{ asset('img/logoblanco.jpg') }}" alt="Logo" width="300">
             </div>
             <br><br>
             <form method="POST" action="{{ route('inicia-sesion') }}">
                 @csrf
-                <div class="fas fa mb-3">
+                <div class="mb-3">
                     <label for="emailInput" class="form-label">Email</label>
                     <input type="email" class="form-control" id="emailInput" name="email" required autocomplete="disable">
                 </div>
                 <br>
-                <div class="fas fa mb-3">
+                <div class="mb-3">
                     <label for="passwordInput" class="form-label">Password</label>
                     <input type="password" class="form-control" id="passwordInput" name="password" required>
                 </div>
                 <br><br>
-                <div class="fas fa">
+                <div class="">
                     <p>
-                        ¿No tienes cuenta? <a style="color: RGB(0 130 130);" href="{{ route('registro') }}">Registrate</a>
+                        ¿No tienes cuenta? <a style="color: #012060;" href="{{ route('registro') }}">Registrate</a>
                     </p>
                 </div>
                 <br>
-                <button type="submit" class="fas fa btn btn-primary" style="background-color: RGB(0 130 130); border: RGB(0 130 130); border-radius:20px">INGRESA</button>
+                <button type="submit" class="btn btn-primary" style="font-family: Arial, sans-serif; background-color: #012060; border: #012060; border-radius:20px">INGRESA</button>
                 <!-- Agrega esta sección para el inicio de sesión con Google -->
                 {{-- <div class="text-center">
                     <a href="{{ route('google.redirect') }}" class="btn btn-google">

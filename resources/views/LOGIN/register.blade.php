@@ -19,6 +19,7 @@
         .form-container {
             width: 50%;
             max-width: 700px;
+            font-family: Arial, sans-serif;
             text-align: center;
         }
     </style>
@@ -33,7 +34,7 @@
     <div class="container">
         <div class="form-container">
             <div class="text-center">
-                <img src="{{ asset('img/logo4.png') }}" alt="Logo" width="300">
+                <img src="{{ asset('img/logoblanco.jpg') }}" alt="Logo" width="300">
             <form method="POST" action="{{ route('validar-registro') }}">
                 @csrf
                 <br><br>
@@ -59,12 +60,12 @@
                 <br><br>
                 <div class="">
                     <p>
-                        ¿Ya tienes cuenta? <a style="color: RGB(0 130 130);" href="{{ route('login') }}">Inicia sesion</a>
+                        ¿Ya tienes cuenta? <a style="color: #012060;" href="{{ route('login') }}">Inicia sesion</a>
                     </p>
                     
                 </div>
                 <br>
-                <button type="submit" class="fas fa" style="color:white;background-color: RGB(0 130 130); border: RGB(0 130 130); border-radius:20px; height:30px;">REGISTRARSE</button>
+                <button type="submit" class="" style="font-family: Arial, sans-serif;color:white;background-color: #012060; border: #012060; border-radius:20px; height:30px;">REGISTRARSE</button>
                 
             </form>
         </div>

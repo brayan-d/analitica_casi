@@ -238,6 +238,19 @@
                 font-family: 'GlacialIndifference-Regular';
                 src: url('../../public/font/GlacialIndifference-Regular.otf') format('opentype');
             }
+               /*  */
+               #rd{
+                margin-left: -115%;
+                color: white; 
+                text-decoration: none;
+                font-family: 'GlacialIndifference-Bold', sans-serif;
+                font-size: 45px;
+            }
+            #social-icon{
+                color: white ;
+                 font-size: 50px;
+                 margin-left: -115%;
+            }
                 }
 
 
@@ -335,6 +348,19 @@
             @font-face {
                 font-family: 'GlacialIndifference-Regular';
                 src: url('../../public/font/GlacialIndifference-Regular.otf') format('opentype');
+            }
+            /*  */
+            #rd{
+               
+                color: white; 
+                text-decoration: none;
+                font-family: 'GlacialIndifference-Bold', sans-serif;
+                font-size: 25px;
+            }
+            #social-icon{
+                color: white ;
+                 font-size: 45px;
+                
             }
         }
         /*Terminan xl Pantallas semiGrandes*/
@@ -444,13 +470,19 @@
         /*md Pantallas Medianas-----------------------------------------------------------------------------*/
         @media (min-width: 768px) and (max-width: 1023px) {
  /* Estilos CSS para el pie de página */
- footer {
+            footer {
                 color: white;
                 padding: 40px 0;
                 background-color: #012060;
                 text-align: center;
-                width: 88%;
-                margin-left: 24.5%;
+                width: 97%;
+                margin-left: 0%;
+                height: 10%;
+            }
+            #imffoo{
+                width: 230px;
+                height: 140px;
+                margin-left: -40%;
             }
             #icont{
                color:  #012060;
@@ -466,8 +498,9 @@
             }
             .contact-info {
                 font-size: 25px;
-                width: 90%;
+                width: 84%;
                 height: 50%;
+                margin-left: -15%;
             }
             .contact-info p {
                 margin: 5px 0;
@@ -490,13 +523,13 @@
                 font-family: 'GlacialIndifference-Bold', sans-serif;
             }
             .survey-container {
-                max-width: 36%;
+                max-width: 35%;
                 margin: 0 auto;
                 background-color: #ffffff;
                 padding: 20px;
                 border-radius: 10px;
                 box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-                margin-left: -3%;
+                margin-left: -21%;
             }
             .survey-title a {
                 color:#012060;
@@ -529,7 +562,11 @@
                 background-color: #005353;
             }
             #rd{
-                margin-left: -15%;
+                margin-left: -115%;
+                color: white; 
+                text-decoration: none;
+                font-family: 'GlacialIndifference-Bold', sans-serif;
+                font-size: 15px;
             }
             @font-face {
                 font-family: 'GlacialIndifference-Bold';
@@ -539,6 +576,11 @@
             @font-face {
                 font-family: 'GlacialIndifference-Regular';
                 src: url('../../public/font/GlacialIndifference-Regular.otf') format('opentype');
+            }
+            #social-icon{
+                color: white ;
+                 font-size: 30px;
+                 margin-left: -115%;
             }
         }
 
@@ -558,7 +600,7 @@
             <div>
 
 
-                <img src="{{ asset('img/solidata1.jpg') }}" style="height: 150px; width:350px;" alt="Logo" class="logo">
+                <img src="{{ asset('img/solidata1.jpg') }}" id="imffoo" alt="Logo" class="logo">
                 <br>
                 <br>
                 <br>
@@ -587,13 +629,13 @@
 
             <!-- --------------------------------- -->
             <div class="social-media">
-                <a class="fa-solid " id="rd" href="#" style="color: white; text-decoration: none;font-family: 'GlacialIndifference-Bold', sans-serif;"> REDES SOCIALES</a>
+                <a class="fa-solid " id="rd" href="#" style="color: white;"> REDES SOCIALES</a>
                 <br>
                 <!-- Icono de WhatsApp -->
-                <a href="{{route ('wpp') }}" class="social-icon" style="color: white ; font-size: 50px;"><i class="fab fa-whatsapp"></i></a>
+                <a href="{{route ('wpp') }}" class="social-icon" id="social-icon" ><i class="fab fa-whatsapp"></i></a>
 
                 <!-- Icono de Instagram -->
-                <a href="{{route ('instagram') }}" class="social-icon" style="color: white ; font-size: 50px;"><i class="fab fa-instagram"></i></a>
+                <a href="{{route ('instagram') }}" class="social-icon" id="social-icon" style=""><i class="fab fa-instagram"></i></a>
             </div>
         </div>
     </footer>

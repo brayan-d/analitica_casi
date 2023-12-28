@@ -150,7 +150,7 @@
                 /* background-color: rgb(197, 189, 189); */
                 background-color: RGB(220 162 17);
                 margin-left: 10%;
-                width: 72%;
+                width: 74.8%;
                 color: black;
                 font-family: 'Open Sans', sans-serif;
                 font-weight: bold;

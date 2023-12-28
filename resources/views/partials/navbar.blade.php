@@ -42,30 +42,33 @@
                 padding: 20px 0;
             }
 
-            /* Estilos de los íconos en la barra lateral */
+                    /* Estilos de la barra lateral */
             .vertical-icons {
                 position: fixed;
-                top: 0; /* Alinea los iconos en la parte superior */
+                top: 0;
                 left: 0;
-                width: 250px; /* Ancho de la barra lateral inicial */
+                width: 250px;
+                height: 100vh; /* Establece la altura al 100% de la ventana */
                 background-color: #012060;
-                color: #000000; /* Color de los iconos */
+                color: #000000;
                 z-index: 2;
                 display: flex;
                 flex-direction: column;
-                align-items:start;
-                justify-content: flex-start; /* Alinea los iconos y nombres arriba */
-                padding-top: 20px; /* Espacio superior para los iconos */
+                align-items: start;
+                justify-content: flex-start;
+                padding-top: 20px;
                 transition: width 0.3s;
-                height: 100%;
-                
+                overflow-y: auto; /* Permite desplazamiento vertical si es necesario */
+                box-sizing: border-box; /* Incluye el relleno y el borde en el tamaño total */
             }
 
             /* Estilos de los íconos en la barra lateral cuando se agranda */
             .vertical-icons:hover {
-                width: 250px; /* Ancho cuando se agrande */
-             
+                width: 250px;
             }
+
+/* ... (otros estilos) ... */
+
 
             .vertical-icons i {
                 font-size: 35px;
@@ -236,30 +239,33 @@
                 padding: 20px 0;
             }
 
-            /* Estilos de los íconos en la barra lateral */
+         /* Estilos de la barra lateral */
             .vertical-icons {
                 position: fixed;
-                top: 0; /* Alinea los iconos en la parte superior */
+                top: 0;
                 left: 0;
-                width: 250px; /* Ancho de la barra lateral inicial */
+                width: 250px;
+                height: 100vh; /* Establece la altura al 100% de la ventana */
                 background-color: #012060;
-                color: #000000; /* Color de los iconos */
+                color: #000000;
                 z-index: 2;
                 display: flex;
                 flex-direction: column;
-                align-items:start;
-                justify-content: flex-start; /* Alinea los iconos y nombres arriba */
-                padding-top: 20px; /* Espacio superior para los iconos */
+                align-items: start;
+                justify-content: flex-start;
+                padding-top: 20px;
                 transition: width 0.3s;
-                height: 100%;
-                
+                overflow-y: auto; /* Permite desplazamiento vertical si es necesario */
+                box-sizing: border-box; /* Incluye el relleno y el borde en el tamaño total */
             }
 
             /* Estilos de los íconos en la barra lateral cuando se agranda */
             .vertical-icons:hover {
-                width: 250px; /* Ancho cuando se agrande */
-             
+                width: 250px;
             }
+
+/* ... (otros estilos) ... */
+
 
             .vertical-icons i {
                 font-size: 35px;
@@ -429,30 +435,33 @@
                 padding: 20px 0;
             }
 
-            /* Estilos de los íconos en la barra lateral */
+            /* Estilos de la barra lateral */
             .vertical-icons {
                 position: fixed;
-                top: 0; /* Alinea los iconos en la parte superior */
+                top: 0;
                 left: 0;
-                width: 250px; /* Ancho de la barra lateral inicial */
+                width: 250px;
+                height: 100vh; /* Establece la altura al 100% de la ventana */
                 background-color: #012060;
-                color: #000000; /* Color de los iconos */
+                color: #000000;
                 z-index: 2;
                 display: flex;
                 flex-direction: column;
-                align-items:start;
-                justify-content: flex-start; /* Alinea los iconos y nombres arriba */
-                padding-top: 20px; /* Espacio superior para los iconos */
+                align-items: start;
+                justify-content: flex-start;
+                padding-top: 20px;
                 transition: width 0.3s;
-                /* si le quito el overflow-y: queda normal y cuando asomo el puntero se muestra ...;; */
-                    max-height: 102vh; /* Set maximum height for the menu */
+                overflow-y: auto ; /* Permite desplazamiento vertical si es necesario */
+                box-sizing: border-box; /* Incluye el relleno y el borde en el tamaño total */
             }
 
             /* Estilos de los íconos en la barra lateral cuando se agranda */
             .vertical-icons:hover {
-                width: 250px; /* Ancho cuando se agrande */
-                overflow-y: auto;
+                width: 250px;
             }
+
+/* ... (otros estilos) ... */
+
 
             .vertical-icons i {
                 font-size: 35px;
@@ -621,30 +630,33 @@
                 padding: 20px 0;
             }
 
-            /* Estilos de los íconos en la barra lateral */
+                    /* Estilos de la barra lateral */
             .vertical-icons {
                 position: fixed;
-                top: 0; /* Alinea los iconos en la parte superior */
+                top: 0;
                 left: 0;
-                width: 250px; /* Ancho de la barra lateral inicial */
+                width: 250px;
+                height: 100vh; /* Establece la altura al 100% de la ventana */
                 background-color: #012060;
-                color: #000000; /* Color de los iconos */
+                color: #000000;
                 z-index: 2;
                 display: flex;
                 flex-direction: column;
-                align-items:start;
-                justify-content: flex-start; /* Alinea los iconos y nombres arriba */
-                padding-top: 20px; /* Espacio superior para los iconos */
+                align-items: start;
+                justify-content: flex-start;
+                padding-top: 20px;
                 transition: width 0.3s;
-                /* si le quito el overflow-y: queda normal y cuando asomo el puntero se muestra ...;; */
-                    max-height: 102vh; /* Set maximum height for the menu */
+                overflow-y: auto; /* Permite desplazamiento vertical si es necesario */
+                box-sizing: border-box; /* Incluye el relleno y el borde en el tamaño total */
             }
 
             /* Estilos de los íconos en la barra lateral cuando se agranda */
             .vertical-icons:hover {
-                width: 250px; /* Ancho cuando se agrande */
-                overflow-y: auto;
+                width: 250px;
             }
+
+/* ... (otros estilos) ... */
+
 
             .vertical-icons i {
                 font-size: 35px;
@@ -786,7 +798,7 @@
            /*md Pantallas Medianas--------------------------------------------------------------*/
      @media (min-width: 768px) and (max-width: 1023px) {
   /* Estilos generales */
-  body {
+            body {
                 margin: 0;
                 padding: 0;
                 font-family: Arial, sans-serif;
@@ -812,30 +824,33 @@
                 padding: 20px 0;
             }
 
-            /* Estilos de los íconos en la barra lateral */
+          /* Estilos de la barra lateral */
             .vertical-icons {
                 position: fixed;
-                top: 0; /* Alinea los iconos en la parte superior */
+                top: 0;
                 left: 0;
-                width: 250px; /* Ancho de la barra lateral inicial */
+                width: 250px;
+                height: 100vh; /* Establece la altura al 100% de la ventana */
                 background-color: #012060;
-                color: #000000; /* Color de los iconos */
+                color: #000000;
                 z-index: 2;
                 display: flex;
                 flex-direction: column;
-                align-items:start;
-                justify-content: flex-start; /* Alinea los iconos y nombres arriba */
-                padding-top: 20px; /* Espacio superior para los iconos */
+                align-items: start;
+                justify-content: flex-start;
+                padding-top: 20px;
                 transition: width 0.3s;
-                /* si le quito el overflow-y: queda normal y cuando asomo el puntero se muestra ...;; */
-                    max-height: 102vh; /* Set maximum height for the menu */
+                overflow-y: auto; /* Permite desplazamiento vertical si es necesario */
+                box-sizing: border-box; /* Incluye el relleno y el borde en el tamaño total */
             }
 
             /* Estilos de los íconos en la barra lateral cuando se agranda */
             .vertical-icons:hover {
-                width: 250px; /* Ancho cuando se agrande */
-                overflow-y: auto;
+                width: 250px;
             }
+
+/* ... (otros estilos) ... */
+
 
             .vertical-icons i {
                 font-size: 35px;
@@ -974,6 +989,24 @@
                 transform: rotate(45deg);
                 bottom: 0;
             }
+            /* --- */
+            .burger-menu-container.saved {
+                background-color: transparent; /* Puedes cambiar esto a cualquier otro color si lo prefieres */
+            }
+
+            .burger-menu-container.saved:hover {
+                background-color: transparent; /* Puedes cambiar esto a cualquier otro color si lo prefieres */
+            }
+
+            .burger-menu-container.saved .burger-menu {
+                background-color: #2175aa; /* Color del icono del menú cuando está guardado */
+            }
+
+            .burger-menu-container.saved .burger-menu::before,
+            .burger-menu-container.saved .burger-menu::after {
+                background-color: #2175aa; /* Color de las líneas adicionales cuando está guardado */
+            }
+
      }
 
 /*Terminan md Pantallas Medianas*/
@@ -1031,24 +1064,26 @@
  <!-- Scripts, estilos y otros elementos que pertenezcan al final del body... -->
  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script>
-        $(document).ready(function () {
-            // Función para mostrar/ocultar la barra lateral al hacer clic en el botón de hamburguesa
-            $('.burger-menu-container').click(function () {
-                const verticalIcons = $('.vertical-icons');
-                const content = $('.content');
-                const logo = $('.logo img');
+ $(document).ready(function () {
+        $('.burger-menu-container').click(function () {
+            const verticalIcons = $('.vertical-icons');
+            const content = $('.content');
+            const logo = $('.logo img');
 
-                if (verticalIcons.width() === 0) {
-                    verticalIcons.css('width', '250px');
-                    content.css('margin-left', '250px');
-                    logo.css('display', 'flex');
-                } else {
-                    verticalIcons.css('width', '0');
-                    content.css('margin-left', '0');
-                    logo.css('display', 'none');
-                }
-            });
+            if (verticalIcons.width() === 0) {
+                verticalIcons.css('width', '250px');
+                content.css('margin-left', '250px');
+                logo.css('display', 'flex');
+                $('.burger-menu-container').removeClass('saved');
+            } else {
+                verticalIcons.css('width', '0');
+                content.css('margin-left', '0');
+                logo.css('display', 'none');
+                $('.burger-menu-container').addClass('saved');
+            }
         });
+    });
+
     </script>
 
     

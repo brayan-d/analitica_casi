@@ -9,6 +9,10 @@
     <title>Informes o estudios | Analítica Solidaria</title>
 
     <style>
+   /* RESPONSIVE---------------------------------------T */
+        /*3xl Pantallas mas grandes*/
+        @media (min-width: 1850px) {
+            
           @font-face {
         font-family: 'GlacialIndifference-Bold';
         src: url('../public/font/GlacialIndifference-Bold.otf') format('opentype');
@@ -106,6 +110,444 @@
             font-family: 'GlacialIndifference-Bold', sans-serif;
         }
         /*  */
+        }
+   /* -------------------------------------------------------------- */
+
+                /*Terminan 3xl Pantallas mas grandes*/
+        /*2xl Pantallas grandes*/
+        @media (min-width: 1536px) and (max-width: 1849px) {
+            
+          @font-face {
+        font-family: 'GlacialIndifference-Bold';
+        src: url('../public/font/GlacialIndifference-Bold.otf') format('opentype');
+        }
+        @font-face {
+        font-family: 'GlacialIndifference-Regular';
+        src: url('../../public/font/GlacialIndifference-Regular.otf') format('opentype');
+        }
+        .col-lg-3 {
+            -ms-flex: 0 0 25%;
+            flex: 0 0 25%;
+            max-width: 25%;
+        }
+        #carbody{
+            text-align:center;
+            font-family: system-ui;
+            font-size:25px;
+        }
+
+         /* informe tutulo----------------------- */
+       #sp{
+        font-size: 43px;
+        color: #2175aa;
+       }
+       
+       #ainfe{
+            color: #2175aa; 
+            text-decoration: none;
+            margin-bottom: 5px;
+            font-size: 43px;
+            width: 1200px;
+            text-align: center;
+            margin-left: 14%;
+            font-family: 'GlacialIndifference-Bold', sans-serif;
+            margin-bottom: 2%;
+        }
+        /* ´................... */
+        #mgb{
+            margin-bottom:2%;
+        }
+        /* ------------------------- */
+        /* pprecio clase por que se esta utilizando id para operaciones */
+        #pprecio{
+            font-size: 24px;
+            font-family: 'GlacialIndifference-Bold', sans-serif;
+            color: #012060;
+        }
+        /*  */
+        /* boton agregar al carrito --------------- */
+        #btagg{
+            width: 480px;
+            margin-left:15px;
+            font-size:20px;
+            font-family: 'GlacialIndifference-Bold', sans-serif;
+            background-color: #2175aa;
+        }
+        /* -------------------------------------- */
+        /* diseño de las cartas top principal */
+        #card {
+        margin-left: 25%;
+        margin-bottom: 25px; 
+        border-top-left-radius: 32px; 
+        border-top-right-radius: 30px; 
+        border-bottom-left-radius: 30px; 
+        border-bottom-right-radius: 30px; 
+        width: 375px; 
+        margin-right: 30px;  
+       }
+       /*  */
+       /* titulos de la carta  */
+       .card-title{
+            font-family: 'GlacialIndifference-Bold', sans-serif;
+            font-size: 16px;
+            text-align: center;
+            color: #2175aa;
+        }
+        /*  */
+        /* descripcion de las cartas */
+        .card-text{
+            font-family: 'GlacialIndifference-Bold', sans-serif;
+            font-size: 16px;
+            text-align: center;
+            color: black;
+        }
+        /* leer informe 2 -------------- */
+        #but2i{
+            background-color:red;
+            border:red;
+            font-family: 'GlacialIndifference-Bold', sans-serif;
+        }
+        /* leer informe 1 */
+        #butleei{
+            background-color:rgb(114, 255, 32); 
+            border:rgb(114, 255, 32);
+            font-family: 'GlacialIndifference-Bold', sans-serif;
+        }
+        /*  */
+        }
+/* ---------------------------------------------------------------------- */
+@media (min-width: 1280px) and (max-width: 1535px) {
+    @font-face {
+        font-family: 'GlacialIndifference-Bold';
+        src: url('../public/font/GlacialIndifference-Bold.otf') format('opentype');
+        }
+        @font-face {
+        font-family: 'GlacialIndifference-Regular';
+        src: url('../../public/font/GlacialIndifference-Regular.otf') format('opentype');
+        }
+        .col-lg-3 {
+            -ms-flex: 0 0 25%;
+            flex: 0 0 25%;
+            max-width: 25%;
+        }
+        #carbody{
+            text-align:center;
+            font-family: system-ui;
+            font-size:25px;
+        }
+
+         /* informe tutulo----------------------- */
+       #sp{
+        font-size: 43px;
+        color: #2175aa;
+       }
+       
+       #ainfe{
+            color: #2175aa; 
+            text-decoration: none;
+            margin-bottom: 5px;
+            font-size: 43px;
+            width: 1200px;
+            text-align: center;
+            margin-left: 14%;
+            font-family: 'GlacialIndifference-Bold', sans-serif;
+            margin-bottom: 2%;
+        }
+        /* ´................... */
+        #mgb{
+            margin-bottom:2%;
+        }
+        /* ------------------------- */
+        /* pprecio clase por que se esta utilizando id para operaciones */
+        #pprecio{
+            font-size: 24px;
+            font-family: 'GlacialIndifference-Bold', sans-serif;
+            color: #012060;
+        }
+        /*  */
+        /* boton agregar al carrito --------------- */
+        #btagg{
+            width: 480px;
+            margin-left:15px;
+            font-size:20px;
+            font-family: 'GlacialIndifference-Bold', sans-serif;
+            background-color: #2175aa;
+        }
+        /* -------------------------------------- */
+        /* diseño de las cartas top principal */
+        #card {
+        margin-left: 18%;
+        margin-bottom: 25px; 
+        border-top-left-radius: 32px; 
+        border-top-right-radius: 30px; 
+        border-bottom-left-radius: 30px; 
+        border-bottom-right-radius: 30px; 
+        width: 305px; 
+        margin-right: -130px;  
+       }
+       /*  */
+       /* titulos de la carta  */
+       .card-title{
+            font-family: 'GlacialIndifference-Bold', sans-serif;
+            font-size: 16px;
+            text-align: center;
+            color: #2175aa;
+        }
+        /*  */
+        /* descripcion de las cartas */
+        .card-text{
+            font-family: 'GlacialIndifference-Bold', sans-serif;
+            font-size: 16px;
+            text-align: center;
+            color: black;
+        }
+        /* leer informe 2 -------------- */
+        #but2i{
+            background-color:red;
+            border:red;
+            font-family: 'GlacialIndifference-Bold', sans-serif;
+        }
+        /* leer informe 1 */
+        #butleei{
+            background-color:rgb(114, 255, 32); 
+            border:rgb(114, 255, 32);
+            font-family: 'GlacialIndifference-Bold', sans-serif;
+        }
+        /* cartas responsive 2 */
+        .col-lg-4 {
+        width: 30%; /* 2 columnas a lo ancho en lugar de 3 */
+    }
+}
+
+            /* --------------------------------------------------------------------------------- */
+       /*lg Pantallas mediaGrandes*/
+       @media (min-width: 1024px) and (max-width: 1279px) {
+        @font-face {
+        font-family: 'GlacialIndifference-Bold';
+        src: url('../public/font/GlacialIndifference-Bold.otf') format('opentype');
+        }
+        @font-face {
+        font-family: 'GlacialIndifference-Regular';
+        src: url('../../public/font/GlacialIndifference-Regular.otf') format('opentype');
+        }
+        .col-lg-3 {
+            -ms-flex: 0 0 25%;
+            flex: 0 0 25%;
+            max-width: 25%;
+        }
+        #carbody{
+            text-align:center;
+            font-family: system-ui;
+            font-size:25px;
+        }
+
+         /* informe tutulo----------------------- */
+       #sp{
+        font-size: 43px;
+        color: #2175aa;
+       }
+       
+       #ainfe{
+            color: #2175aa; 
+            text-decoration: none;
+            margin-bottom: 5px;
+            font-size: 43px;
+            width: 1200px;
+            text-align: center;
+            margin-left: 30%;
+            font-family: 'GlacialIndifference-Bold', sans-serif;
+            margin-bottom: 2%;
+        }
+        /* ´................... */
+        #mgb{
+            margin-bottom:2%;
+        }
+        /* ------------------------- */
+        /* pprecio clase por que se esta utilizando id para operaciones */
+        #pprecio{
+            font-size: 24px;
+            font-family: 'GlacialIndifference-Bold', sans-serif;
+            color: #012060;
+        }
+        /*  */
+        /* boton agregar al carrito --------------- */
+        #btagg{
+            width: 480px;
+            margin-left:15px;
+            font-size:20px;
+            font-family: 'GlacialIndifference-Bold', sans-serif;
+            background-color: #2175aa;
+        }
+        /* -------------------------------------- */
+        /* diseño de las cartas top principal */
+        #card {
+        margin-left: 70%;
+        margin-bottom: 25px; 
+        border-top-left-radius: 32px; 
+        border-top-right-radius: 30px; 
+        border-bottom-left-radius: 30px; 
+        border-bottom-right-radius: 30px; 
+        width: 270px; 
+        margin-right: 400px;  
+       }
+       /*  */
+       /* titulos de la carta  */
+       .card-title{
+            font-family: 'GlacialIndifference-Bold', sans-serif;
+            font-size: 16px;
+            text-align: center;
+            color: #2175aa;
+        }
+        /*  */
+        /* descripcion de las cartas */
+        .card-text{
+            font-family: 'GlacialIndifference-Bold', sans-serif;
+            font-size: 16px;
+            text-align: center;
+            color: black;
+        }
+        /* leer informe 2 -------------- */
+        #but2i{
+            background-color:red;
+            border:red;
+            font-family: 'GlacialIndifference-Bold', sans-serif;
+        }
+        /* leer informe 1 */
+        #butleei{
+            background-color:rgb(114, 255, 32); 
+            border:rgb(114, 255, 32);
+            font-family: 'GlacialIndifference-Bold', sans-serif;
+        }
+        /* cartas responsive 2 */
+        .col-lg-4 {
+        width: 30%; /* 2 columnas a lo ancho en lugar de 3 */
+    }
+    .row{
+        width: 103%;
+       
+    }
+
+
+       }
+
+     /*md Pantallas Medianas-----------------------------------------------------------------*/
+     @media (min-width: 768px) and (max-width: 1023px) {
+        @font-face {
+        font-family: 'GlacialIndifference-Bold';
+        src: url('../public/font/GlacialIndifference-Bold.otf') format('opentype');
+        }
+        @font-face {
+        font-family: 'GlacialIndifference-Regular';
+        src: url('../../public/font/GlacialIndifference-Regular.otf') format('opentype');
+        }
+        .col-lg-3 {
+            -ms-flex: 0 0 25%;
+            flex: 0 0 25%;
+            max-width: 25%;
+        }
+        #carbody{
+            text-align:center;
+            font-family: system-ui;
+            font-size:25px;
+        }
+
+         /* informe tutulo----------------------- */
+       #sp{
+        font-size: 33px;
+        color: #2175aa;
+       }
+       
+       #ainfe{
+            color: #2175aa; 
+            text-decoration: none;
+            margin-bottom: 5px;
+            font-size: 33px;
+            width: 1200px;
+            text-align: center;
+            margin-left: -2%;
+            font-family: 'GlacialIndifference-Bold', sans-serif;
+            margin-bottom: 2%;
+            margin-top: 3%;
+        }
+        /* ´................... */
+        #mgb{
+            margin-bottom:2%;
+        }
+        /* ------------------------- */
+        /* pprecio clase por que se esta utilizando id para operaciones */
+        #pprecio{
+            font-size: 24px;
+            font-family: 'GlacialIndifference-Bold', sans-serif;
+            color: #012060;
+        }
+        /*  */
+        /* boton agregar al carrito --------------- */
+        #btagg{
+            width: 480px;
+            margin-left:15px;
+            font-size:20px;
+            font-family: 'GlacialIndifference-Bold', sans-serif;
+            background-color: #2175aa;
+        }
+        /* -------------------------------------- */
+        /* diseño de las cartas top principal */
+        #card {
+        margin-left: 25%;
+        margin-bottom: 25px; 
+        border-top-left-radius: 32px; 
+        border-top-right-radius: 30px; 
+        border-bottom-left-radius: 30px; 
+        border-bottom-right-radius: 30px; 
+        width: 270px; 
+        margin-right: 400px;  
+       }
+       /*  */
+       /* titulos de la carta  */
+       .card-title{
+            font-family: 'GlacialIndifference-Bold', sans-serif;
+            font-size: 16px;
+            text-align: center;
+            color: #2175aa;
+        }
+        /*  */
+        /* descripcion de las cartas */
+        .card-text{
+            font-family: 'GlacialIndifference-Bold', sans-serif;
+            font-size: 16px;
+            text-align: center;
+            color: black;
+        }
+        /* leer informe 2 -------------- */
+        #but2i{
+            background-color:red;
+            border:red;
+            font-family: 'GlacialIndifference-Bold', sans-serif;
+        }
+        /* leer informe 1 */
+        #butleei{
+            background-color:rgb(114, 255, 32); 
+            border:rgb(114, 255, 32);
+            font-family: 'GlacialIndifference-Bold', sans-serif;
+        }
+        /* cartas responsive 2 */
+     
+   
+      }
+
+/*Terminan md Pantallas Medianas*/
+
+/*sm Pantallas Pequeñas*/
+@media (min-width: 340px) and (max-width: 767px) {
+
+}
+
+/*Termina sm Pantallas Pequeñas*/
+/*Termina Responsive  */
+
+
+
+        
+
 
     </style>
 </head>
@@ -130,7 +572,7 @@
                             <div class="row">
                                 @foreach ($newProductos as $newProduct)
                                     @if ($newProduct['id'] == 1)
-                                        <div class="col-lg-4">
+                                        <div class="col-lg-4" >
                                             <div class="card special-product-card" id="card">
                                                 <img src="{{ asset($newProduct['image_path']) }}" alt="{{ $newProduct['name'] }}" class="card-img-top mx-auto" id="imgcards" alt="{{ $newProduct['image_path'] }}">
                                                 <div class="card-body" id="card-body">

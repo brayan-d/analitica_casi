@@ -347,7 +347,7 @@
             padding: 20px 0;
             height: 300px;
             position: relative;
-            margin-left: 18%;
+            margin-left: 2%;
             width: 95%;
         }
         /* Estilos para el botón Suscribirse */

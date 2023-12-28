@@ -1156,15 +1156,15 @@
 
             #twoicon {
                 padding-left: 10px;
-                margin-right: -33%;
-                margin-left: -13%;
+                margin-right: 3%;
+                margin-left: -12%;
             }
 
             #icontainer {
                 background-color: #ececec;
                 padding: 20px;
                 border-radius: 5px;
-                width: 205px;
+                width: 125px;
                 display: flex;
                 justify-content: center;
                 text-align: center;
@@ -1172,37 +1172,37 @@
             }
 
             #imgicons {
-                height: 80px;
-                width: 90px;
+                height: 65px;
+                width: 65px;
                 margin-bottom: 20px;
             }
 
             #buticons {
                 background-color: #012060;
                 border-color: #008282;
-                width: 205px;
+                width: 125px;
                 border: none;
             }
 
             #spanicons {
                 color: white;
                 font-family: 'GlacialIndifference-Bold', sans-serif;
-                font-size: 15px;
+                font-size: 13px;
             }
         
                 /* CONTENIDO INDEX -----------------------------------------------------------*/
             #fascont{
                 color:#012060;
                 text-decoration: none;
-                font-size: 40px;
+                font-size: 30px;
                 margin-bottom: 3%;
                 font-family: 'GlacialIndifference-Bold', sans-serif;
-                margin-left: 15%;
+                margin-left: -23%;
             }
             #atwo{
                 background-color:#012060;
                 font-family: 'GlacialIndifference-Bold', sans-serif;
-                margin-left: 15%;
+                margin-left: -23%;
             }
             #btnNosotros {
                     margin-top: 20px;
@@ -1210,18 +1210,21 @@
                 }
             h5{
                 color: #2175aa;
-                text-align: start;
+                text-align:start;
                 font-family: 'GlacialIndifference-Bold', sans-serif;
                 margin-bottom: 27%;
-                margin-left: 15%;
+                margin-left: -23%;
                 width: 100%;
+                font-size: 13px;
             }
             .mt-4{
                 margin-bottom: 4%;
             }
             #imgconte{
-                margin-left: 38%;
-                margin-top: 8%
+                margin-left: -16%;
+                margin-top: 12%;
+                width: 110%;
+                height: 70%;
             }
             /* mover flecha carru izquierda */
             .carousel-control-prev {
@@ -1237,11 +1240,11 @@
 
             #titprod {
                 margin-bottom: 2%;
-                margin-left: 46%;
+                margin-left: 18%;
             }
 
             #contcarts {
-                margin-left: 28%;
+                margin-left: 16%;
             }
 
             #imgpro {
@@ -1256,14 +1259,15 @@
 
             #h5 {
                 font-family: 'GlacialIndifference-Bold', sans-serif;
-                font-size: 16px;
-                text-align: center;
+                font-size: 20px;
+                text-align: end;
                 color: #2175aa;
             }
 
             #descripcion {
                 font-size: 24px;
                 font-family: 'GlacialIndifference-Bold', sans-serif;
+                color: #012060;
             }
 
             .card-precio {
@@ -1324,10 +1328,10 @@
                 font-family: 'Arial, Helvetica, sans-serif';
                 font-size: 25px;
             }
-
+/* tamaño completo de las cartas */
             #mb3 {
                 border-radius: 30px;
-                width: 80%;
+                width: 60%;
                
             }  
             #mb4 {

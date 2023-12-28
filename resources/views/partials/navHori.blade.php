@@ -611,7 +611,7 @@
                 right: 0;
                 z-index: 1;
                 height: 70px;
-                width: 71.8%;
+                width: 75%;
                 margin-left: -5%;
                 margin-top: 1.5%;
                 border-radius: 30px;
@@ -709,8 +709,9 @@
                 padding-right: 1.0rem;
                 padding-left: 0.5rem;
                 font-size: 35px;
-                margin-left: -160%;
-                width: 5%;
+                margin-left: -20%;
+                margin-top: -15%;
+                width: 4%;
             }
 
             .badge-dark {
@@ -739,6 +740,9 @@
                 align-items: center;
                 font-family: 'GlacialIndifference-Bold', sans-serif;
                 font-size: 25px;
+                position: absolute;
+                right: 10px;
+            }
                 
             }
             .navbarDropdown{
@@ -749,9 +753,11 @@
             .dropdown{
                 width: 40%;
             }
-           
-        
-        }
+            #header-border{
+                width:  55%;
+                margin-left: -1%;
+            }
+     
 
         /*Terminan md Pantallas Medianas*/
 
@@ -767,7 +773,7 @@
 
     <!-- Cabecera fija -->
     <nav class="navbar navbar-expand-lg navbar navbar-fixed" id="header">
-        <div class="container" id="header-border" id="adn">
+        <div class="container" id="header-border" >
             <!-- Iconos sociales (movidos al principio) -->
             <div class="social-icons ml-0">
                 <!-- Icono de Facebook -->

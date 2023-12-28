@@ -27,7 +27,7 @@
             </div>
             <div class="form-group">
                 <label for="texto_carrusel">Texto:</label>
-                <textarea type="text" name="texto_carrusel" class="form-control" value="{{ $carrusel->texto_carrusel }}" required></textarea>
+                <textarea class="ckeditor" name="texto_carrusel" class="form-control" required>{{ $carrusel->texto_carrusel }}</textarea>
             </div>
             <div class="form-group">
                 <label for="fecha_carrusel">Fecha:</label>

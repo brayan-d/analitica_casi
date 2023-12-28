@@ -27,7 +27,7 @@
             </div>
             <div class="form-group">
                 <label for="texto_contenido">Texto:</label>
-                <textarea type="text" name="texto_contenido" class="form-control" value="{{ $contenido->texto_contenido }}" required></textarea>
+                <textarea class="ckeditor" name="texto_contenido" class="form-control" required>{{ $contenido->texto_contenido }}</textarea>
             </div>
             <div class="form-group">
                 <label for="name_boton">Nombre del boton:</label>

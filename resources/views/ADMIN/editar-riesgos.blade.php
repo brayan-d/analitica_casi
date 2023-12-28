@@ -24,7 +24,7 @@
             
             <div class="form-group">
                 <label for="texto_riesgos">Texto:</label>
-                <textarea class="ckeditor" type="text" name="texto_riesgos" class="form-control" value="{{ $riesgos->texto_riesgos }}" required></textarea>
+                <textarea class="ckeditor" name="texto_riesgos" class="form-control" required>{{ $riesgos->texto_riesgos }}</textarea>
             </div>
             <div class="form-group">
                 <label for="image_riesgos">Imagen actual:</label>

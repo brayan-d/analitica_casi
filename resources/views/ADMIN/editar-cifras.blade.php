@@ -24,7 +24,7 @@
             
             <div class="form-group">
                 <label for="texto_cifras">Texto:</label>
-                <textarea class="ckeditor" type="text" name="texto_cifras" class="form-control" value="{{ $cifras->texto_cifras }}" required></textarea>
+                <textarea class="ckeditor" name="texto_cifras" class="form-control" required>{{ $cifras->texto_cifras }}</textarea>
             </div>
             <div class="form-group">
                 <label for="image_cifras">Imagen actual:</label>

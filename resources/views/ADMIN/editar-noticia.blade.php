@@ -26,15 +26,15 @@
                 <label for="titulo_noticia">Titulo:</label>
                 <input type="text" name="titulo_noticia" class="form-control" value="{{ $noticia->titulo_noticia }}" required>
             </div>
-            <h6 class="fas fa">Este texto aparecera en el carrusel principal </h6>
+            <h6 class="fas fa">Este texto aparecera en el  blog de noticias en la vista previa </h6>
             <div class="form-group">
                 <label for="texto_corto">Texto corto:</label>
-                <textarea class="ckeditor" type="text" name="texto_corto" class="form-control" value="{{ $noticia->texto_corto }}" required></textarea>
+                <textarea class="ckeditor" name="texto_corto" class="form-control" required>{{ $noticia->texto_corto }}</textarea>
             </div>
             <h6 class="fas fa">Este texto aparecera en el blog de noticias, en ver la noticia completa </h6>
             <div class="form-group">
                 <label for="texto_largo">Texto completo:</label>
-                <textarea class="ckeditor" type="text" name="texto_largo" class="form-control" value="{{ $noticia->texto_largo }}" required></textarea>
+                <textarea class="ckeditor" name="texto_largo" class="form-control" required>{{ $noticia->texto_largo }}</textarea>
             </div>
             <div class="form-group">
                 <label for="fecha_noticia">Fecha:</label>

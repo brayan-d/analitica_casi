@@ -24,7 +24,7 @@
             
             <div class="form-group">
                 <label for="texto_estadisticas">Texto:</label>
-                <textarea class="ckeditor" type="text" name="texto_estadisticas" class="form-control" value="{{ $estadisticas->texto_estadisticas }}" required></textarea>
+                <textarea class="ckeditor" name="texto_estadisticas" class="form-control" required>{{ $estadisticas->texto_estadisticas }}</textarea>
             </div>
             <div class="form-group">
                 <label for="image_estadisticas">Imagen actual:</label>

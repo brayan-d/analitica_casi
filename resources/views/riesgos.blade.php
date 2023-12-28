@@ -112,36 +112,18 @@
     <!-- Navbar y Cabecera -->
     @include('partials.navbar')
     
-   <div id="mgb"></div>
-
-    <div class="col-md-6">
-        <!-- Contenedor de la imagen y el texto -->
-        <div class="image-container">
-            <img src="{{ asset('img/image22.png') }}" class="image" alt="Imagen">
-            <!-- text-overlay2 fondo blanco -->
-            <div class="fondimg"></div>
-            <!-- Texto que se superpone a la imagen -->
-            <div class="text-overla" id="iconlat" >
-                <img src="{{ asset('img\image28.png') }}" alt="Icono 2" class="img-fluid" id="img-fluid"><br>
-            </div>
-
-            <div class="text-overlay">
-                <a class="fas fa" id="decover" href="{{ route('cifras') }}"><span id="spgr"> GESTION DE RIESGOS</span></a>
-            </div>
+   <br>
+   <br>
+   <div class="container mt-4">
+       <div class="row">
+           @foreach ($riesgos as $riesgos)
+           <img src="{{ asset($riesgos->image_riesgos) }}" alt="{{ $riesgos->image_riesgos }} " style="width:1000px; height:500px;margin-left: 150px;">
+           <div style="margin-left:200px;">
+            <p>{!! $riesgos->texto_riesgos !!}</p>
         </div>
-    </div>
-                <!-- Texto a la izquierda y botón a la derecha con espacio -->
-                <div id="mt">
-                    <div > 
-                        <p id="pt">¡Mantente alerta! Detecta a tiempo todos los riesgos de lavado de dinero que puedan afectar a tu empresa. 
-                            Podras evaluar constantemente a tus clientes y contrapartes para prevenir cualquier riesgo relacionado con el lavado de capitales, 
-                            la evasion fiscal o el fraude.
-                        </p>
-                    </div>
-                    <div>
-                        <a href="#" id="boton" class="fas fa btn btn-primary"> RIESGOS</a>
-                    </div>
-                </div>
+           @endforeach
+       </div>
+   </div>
   
 <br>
     <!-- footer -->

@@ -143,91 +143,23 @@
     <!-- Navbar y Cabecera -->
     @include('partials.navbar')
    
-    <div id="mgb"></div>
-
-    <div class="imgprincipal">
-        <img src="{{ asset('img/cp.png') }}" id="imgpng" class="image" alt="Imagen">
-    </div>
-|<br>
-<div class="tablaiz">
-        <!-- ... (código HTML anterior) ... -->
-    <div class="fas fa titu" onclick="toggleAccordion('button1')"> 
-        <div id="tab1">&nbsp;&nbsp;ESTADISTICAS DEL SECTOR</div>
-    </div>
-
-    <div class="fas accordion-button" onclick="toggleAccordion('button1')"> 
-        <div id="tab1">• Cifras Generales</div>
-    </div>
-    <div class="accordion-content" id="button1"> Información para el Botón 1. Puede ser texto, imágenes, videos, etc.</div>
-
-    <div class="fas fa accordion-button" onclick="toggleAccordion('button2')"> 
-        <div id="tab1">• Gestion de Riesgos</div>
-    </div>
-    <div class="accordion-content" id="button2"> Información para el Botón 2.</div>
-
-    <div class="fas fa accordion-button" onclick="toggleAccordion('button3')"> 
-        <div id="tab1">• Resumen Ejecutivo</div>
-    </div>
-    <div class="accordion-content" id="button3"> Información para el Botón 3.</div>
-
-    <div class="fas fa accordion-button" onclick="toggleAccordion('button4')"> 
-        <div id="tab1">• Cifras de la industria</div>
-    </div>
-    <div class="accordion-content" id="button4">Información para el Botón 4.</div>
-
-    <div class="fas fa accordion-button" onclick="toggleAccordion('button5')"> 
-        <div id="tab1">• Visualizador inteligente de cifras</div>
-    </div>
-    <div class="accordion-content" id="button5"> Información para el Botón 5.</div>
-
-    <div class="fas fa accordion-button" onclick="toggleAccordion('button6')"> 
-        <div id="tab1">• Definicion de los Indicadores del Sector</div>
-    </div>
-    <div class="accordion-content" id="button6">Información para el Botón 6.</div>
-</div>
-<!-- ... ... -->
-<div class="content-container" style="margin-left:52%; width: 35%; margin-top: -30%;">
-    <div class="text-container">
-            <h3 id="h3">Estadisticas del Sector</h3>
-            <br>
-            <p id="descrip">Sistema de Información Estadística de Analítica Solidaria actualmente.</p>
-            <p id="md">Mediante un proceso de recopilación de información, el gremio pone a disposición del público una herramienta de gran utilidad para el análisis de la evolución del renglón de seguros.</p>
-            <br>
-            <div class="line"></div>
-            <br>
-            <p id="cont">Contacto</p>
-        <!-- Cuadros verdes -->
-        <div class="green-box">
-            <b id="dd">Director de Estadisticas</b>
-            <b id="ap">Andre P. Ojuela</b>
-           <b id="ap2">Andere12df@gmail.com</b>
-            <b id="ap2">Analitica Solidaria</b>
+   <br>
+   <div class="container mt-4">
+    <div class="row">
+        @foreach ($estadisticas as $estadisticas)
+        <img src="{{ asset($estadisticas->image_estadisticas) }}" alt="{{ $estadisticas->image_estadisticas }}" style="width:1000px; height:500px;margin-left: 150px;">
+        <div style="margin-left:200px;">
+            <p>{!! $estadisticas->texto_estadisticas !!}</p>
         </div>
-
-        <div class="green-box-2">
-            <h6><b id="pe">Profesional de Estadisticas</b></h6>
-            <h6><b id="ap2">Jose A. Zapata</b></h6>
-            <h6><b id="ap2">Jose121AD@gmail.com</b></h6>
-            <h6><b id="ap2">Analitica Solidaria</b></h6>
-        </div>
+        @endforeach
     </div>
 </div>
-
-    <br><br><br><br><br><br><br>
-
-    <br><br> 
+    <br>
 
     <!-- footer -->
     @include('footer.footer')
     <script>
-        function toggleAccordion(id) {
-            var content = document.getElementById(id);
-            if (content.style.display === "block") {
-                content.style.display = "none";
-            } else {
-                content.style.display = "block";
-            }
-        }
+     
     </script>
 </body>
 </html>

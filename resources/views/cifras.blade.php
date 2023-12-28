@@ -824,70 +824,16 @@
     <!-- Navbar y Cabecera -->
     @include('partials.navbar')
 <!--  -->
-<div id="mrgt"></div>
-<!--  -->
-    <div class="col-md-6 mt-0 ">
-        <!-- Contenedor de la imagen y el texto -->
-        <div class="image-container">
-            <img src="{{ asset('img/cifras1.png') }}" id="image" class="image" alt="Imagen">
-             <!-- text-overlay2 fondo blanco -->
-             <div class="fondimg"></div>
-
-            <div class="text-overla" id="iconlat">
-            <img src="{{ asset('img\image27.png') }}" alt="Icono 2" class="img-fluid" id="img-fluid"><br>
-            </div>
-
-            <div class="text-overlay">
-                <a  href="{{ route('cifras') }}" id="decover"><span id="spgr"> Cifras generales</span></a>
-            </div>
+<div class="container mt-4">
+    <div class="row">
+        @foreach ($cifras as $cifras)
+        <img src="{{ asset($cifras->image_cifras) }}" alt="{{ $cifras->image_cifras }}" style="width:1000px; height:500px;margin-left: 150px;">
+        <div style="margin-left:200px;">
+            <p>{!! $cifras->texto_cifras !!}</p>
         </div>
+        @endforeach
     </div>
-
-    <h1 id="vm">vista de modulos cifras generales del sector</h1>
-    <div class="divmayor">
-        <!-- div -->
-        <div class="cifras">
-            <div id="c2">
-                <div class="fas fa-chart-bar" id="c3"></div>
-                    <div class="fas fa">
-                        <a class="fas fa" href="#" id="afaf"><span>  Cifras Generales</span></a>
-                        <div class="line"></iv>
-                            <a id="vermas" class="fas fa" href="#">Ver mas</a><a class="fas fa-arrow-circle-right" href="#"></a>
-                        </div>
-                    </div>
-                </div>
-                  <!-- 2div -->
-        <div class="indicadores">
-            <div id="ci">
-                <div class="fas fa-chart-bar" id="c3"></div>
-                    <div class="fas fa">
-                        <a class="fas fa" href="#" id="afaf"><span>  Estadisticas del Sector</span></a>
-                        <div class="line"></div>
-                            <a id="vermas" class="fas fa" href="#">Ver mas</a><a class="fas fa-arrow-circle-right" href="#"></a>
-                        </div>
-                    </div>
-                     <!-- 3div  VISUALIZADOR INTELIGENTE DE CIFRAS-->
-        <div class="visualizador">
-            <div id="ci">
-                <div class="fas fa-chart-bar" id="c3"></div>
-                    <div class="fas fa">
-                        <a class="fas fa" href="#" id="afaf"><span>Visualizador Inteligente de Cifras</span></a>
-                        <div class="line"></div>
-                            <a id="vermas" class="fas fa" href="#">Ver mas</a><a class="fas fa-arrow-circle-right" href="#"></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-                </div>
-            </div>
-        </div>
-            </div>
-        </div>
-      
-       
-    </div>
-  
+</div>
 <br>
     <!-- footer -->
     @include('footer.footer')

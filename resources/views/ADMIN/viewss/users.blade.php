@@ -7,6 +7,13 @@
     <title>Ver Usuarios | Analítica Solidaria</title>
 </head>
 <style>
+     .container{
+        margin-left:28px;
+    }
+    #container{
+        margin-left:28px;
+        
+    }
 </style>
 <body>
     @include('partials.navbar')
